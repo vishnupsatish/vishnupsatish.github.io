@@ -1,0 +1,329 @@
+body {
+
+  background-color: white;
+}
+
+#homepage {
+    height: 100%;
+    width: 100%;
+    padding-top: 0px;
+
+
+}
+
+#backgroundimg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  z-index: -1;
+  display:block;
+  object-fit: cover;
+  position:fixed;
+}
+
+
+#pagetitle {
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-top: 150px;
+    padding-bottom: 35px;
+
+}
+
+#typewriter {
+  background: rgb(0, 0, 0);
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
+
+  border-radius: 25px;
+  margin: 0 auto;
+  text-align: left;
+  width: 82vw;
+  height: auto;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  margin-bottom: 60px;
+  margin-top: 195px;
+}
+
+.textoftype {
+
+  color: white;
+  font-family: Courier, Monaco, monospace;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 3vw;
+}
+
+.container {
+
+  text-align: center;
+}
+
+
+#projectstitle {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#proj {
+  margin-top: 150px;
+  padding-top: 40px;
+  padding-bottom: 125px;
+  background: linear-gradient(90deg, rgba(48,44,110,1) 0%, rgba(0,27,38,1) 47%, rgba(0,88,106,1) 100%);
+  position: relative;
+  text-align: center;
+}
+
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    z-index: -1;
+    box-sizing: border-box;
+    height: 550px;
+    background: linear-gradient(90deg, rgba(48,44,110,1) 0%, rgba(0,27,38,1) 47%, rgba(0,88,106,1) 100%);
+    padding: 10px 0 10px 0;
+    text-align: center;
+
+
+}
+
+.projectwrap {
+  margin: 10px 15px 0 15px;
+  width: 23vw;
+  background-color: #505050;
+  padding-bottom: 2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 0;
+  box-sizing: border-box;
+  height: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+
+}
+
+#proj2 {
+
+  margin-right:-100px;
+  margin-left: -100px;
+}
+
+
+.projtext {
+  color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+
+
+.iconimg{
+  margin: 0;
+  padding: 0;
+  width: 23vw;
+  border-radius: 10px 10px 0 0;
+  box-sizing: border-box;
+  display: block;
+
+}
+
+
+
+.WebButton {
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 10px;
+  border: 4px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  position: absolute;
+  margin: 0;
+  bottom: -17px;
+  border-radius: 10px 10px 10px 10px;
+  width: 23vw;
+
+  
+
+}
+
+.WebButton:hover {
+    color: #ffffff !important;
+    background: #000000;
+    border-color: #000000 !important;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+
+}
+
+.osbutton {
+
+  visibility: hidden;
+}
+
+#viewallbutton {
+
+  position: absolute;
+  bottom: 40px;
+  width: 9vw;
+
+}
+
+
+
+
+
+#contactform {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+#fs-frm {
+  display: inline-block;
+
+}
+
+
+
+
+#fs-frm input,
+#fs-frm select,
+#fs-frm button,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 50vw;
+  border-radius: 10px 10px 10px 10px;
+
+
+}
+#fs-frm label,
+#fs-frm legend {
+  font-size: .825em;
+  margin-bottom: .5em;
+  width: 50vw;
+
+}
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm button,
+#fs-frm textarea {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1em;
+  margin-bottom: 1.5em;
+  width: 50vw;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm button,
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm button:focus,
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm button,
+#fs-frm select {
+  text-transform: none;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+
+
+/*#imgmain { 
+  Full height
+  height: 100%; 
+  width: 100%;
+
+  Center and scale the image nicely
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+}*/
+
