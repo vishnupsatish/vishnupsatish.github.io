@@ -136,7 +136,7 @@ body {
   width: 100%;
   padding-top: 0px; }
 
-#backgroundimg {
+.backgroundimg {
   position: absolute;
   left: 0;
   top: 0;
@@ -392,3 +392,9 @@ body {
   background-attachment: fixed;
   position: fixed;
 }*/
+html {
+  text-align: center; }
+
+#pagenotfound {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px; }
