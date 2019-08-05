@@ -125,6 +125,9 @@ a.btn-social,
   .headerbutton {
     display: block;
     margin: 0.2em auto; } }
+html {
+  scroll-behavior: smooth; }
+
 body {
   background-color: white; }
 
@@ -164,7 +167,7 @@ body {
   padding-top: 4vw;
   padding-bottom: 4vw;
   margin-bottom: 60px;
-  margin-top: 195px; }
+  margin-top: 240px; }
 
 .textoftype {
   color: white;
@@ -182,7 +185,7 @@ body {
   color: white; }
 
 #proj {
-  margin-top: 150px;
+  margin-top: 200px;
   padding-top: 40px;
   padding-bottom: 125px;
   background: linear-gradient(90deg, #302c6e 0%, #001b26 47%, #00586a 100%);

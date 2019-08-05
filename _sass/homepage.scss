@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 
   background-color: white;
@@ -47,7 +51,7 @@ body {
   padding-top: 4vw;
   padding-bottom: 4vw;
   margin-bottom: 60px;
-  margin-top: 195px;
+  margin-top: 240px;
 }
 
 .textoftype {
@@ -72,7 +76,7 @@ body {
 }
 
 #proj {
-  margin-top: 150px;
+  margin-top: 200px;
   padding-top: 40px;
   padding-bottom: 125px;
   background: linear-gradient(90deg, rgba(48,44,110,1) 0%, rgba(0,27,38,1) 47%, rgba(0,88,106,1) 100%);
