@@ -1,11 +1,13 @@
 ---
 title: Vishnu Satish
 layout: default
+description: Hey, my name is Vishnu, and I like to program. This is like a list of my projects and what I've done so far.
 ---
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
     {% include header.html %}
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
 
 </head>
