@@ -4,9 +4,62 @@ layout: default
 permalink: /projects/
 description: Coming soon!
 ---
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<p>Coming Soon!</p>
-<title>Projects</title>
+<!DOCTYPE html>
+<html>
 
-<a href="{{ site.baseurl }}/">Go Home</a>
+<head>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <title>Projects</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    {% include header.html %}
+</head>
+
+<!DOCTYPE html>
+<html>
+
+
+<body id="projectsbody">
+    <img src="https://cdn.pixabay.com/photo/2019/07/30/16/37/sea-4373364_1280.jpg" class="backgroundimg" id="projectbackground">
+  <section class="intro">
+  <div class="container">
+    <h1 id="projectstitle">Projects</h1>
+  </div>
+</section>
+
+<section class="timeline">
+  <ul>
+    <li>
+      <div>
+        <time>Hand Cricket - July 2019</time> 
+        <p>A fun cricket game to play that is based on a favourite childhood game that involves hands.</p>
+        <button onclick="location.href='https://www.dropbox.com/s/pnz28tgu6sx7ms1/Hand%20Cricket%20Installer.dmg?dl=1'" class="projectbutton" id="firstbutton">Download for Mac ⬇</button>
+        <button onclick="location.href='https://www.dropbox.com/s/er3tlrl0mnqb2wx/HandCricketInstall.zip?dl=1'" class="projectbutton">Download for Windows ⬇</button>    
+            
+        
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>CheerApp - November 2018</time> 
+        <p>An Android app that displays customizable quotes, jokes, and sounds of people laughing (which are proven to lighten up your mood).</p>
+        <button onclick="location.href='https://www.dropbox.com/s/k7rfqa3xcndd0oh/CheerApp.apk?dl=1'" class="projectbutton">Download for Android ⬇</button>
+
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>India Trip Blog - July 2016</time> 
+        <p>A blog written with HTML and CSS to document my India Trip in 2016.</p>
+        <button onclick="location.href='https://familyindiatrip.blogspot.com/'" class="projectbutton">Visit Blog</button>
+
+      </div>
+    </li>
+    
+  </ul>
+</section>
+  
+    <script src="/assets/js/script.js"></script>
+
+</body>
+</html>
 
