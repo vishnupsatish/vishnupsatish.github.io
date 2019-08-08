@@ -35,7 +35,12 @@ header.sticky {
 
 .logo {
   width: 82px;
-  height: 82px; }
+  height: 82px;
+  opacity: 1;
+  transition: 0.7s; }
+
+.logo:hover {
+  opacity: 0.6; }
 
 /*section.content {
     margin-top: 80px;
