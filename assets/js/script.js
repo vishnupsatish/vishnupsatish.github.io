@@ -268,7 +268,7 @@ function bodyOnload() {
 
 // CALCULATOR JAVASCRIPT ---------------------------------------------------------------------------------------------
 
-var calculatorDisplay = document.getElementById("calctitle");
+/*var calculatorDisplay = document.getElementById("calctitle");
 var currentNumber = "";
 
 
@@ -285,10 +285,10 @@ function buttonPressed(symbol) {
         currentNumber = String(currentNumber) + String(symbol);
     }
 
-    
-    document.getElementById("calctitle").innerHTML = (currentNumber.replace(/\*/g, "×")).replace(/\//g, "÷");
+*/    
+    //document.getElementById("calctitle").innerHTML = (currentNumber.replace(/\*/g, "×")).replace(/\//g, "÷");
 
-}
+/*}
 
 function equalButton(expression) {
     try {
@@ -323,8 +323,9 @@ function lastRemove() {
         currentNumber = currentNumber.slice(0, -1);
         currentNumber = currentNumber.trim();
     }
-    
-    calculatorDisplay.innerHTML = (currentNumber.replace(/\*/g, "×")).replace(/\//g, "÷");
+    */
+    //calculatorDisplay.innerHTML = (currentNumber.replace(/\*/g, "×")).replace(/\//g, "÷");
 
-
+/*
 }
+*/
