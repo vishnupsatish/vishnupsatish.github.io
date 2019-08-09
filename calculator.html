@@ -1,0 +1,79 @@
+---
+title: Simple Calculator
+layout: default
+permalink: /calculator/
+---
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Simple Calculator - Vishnu</title>
+  <meta name="description" content="A simple, yet usable HTML and JavaScript calculator.">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  {% include header.html %}
+
+
+</head>
+
+<body id="calcbody">
+    <img src="https://cdn.pixabay.com/photo/2019/07/30/16/37/sea-4373364_1280.jpg" class="backgroundimg">
+
+
+    <div id="calculatorwrap">
+        <div id="calctitlewrap">
+            <h1 id="calctitle">0</h1>
+        </div>
+
+        <div class="calcrowovr" id="calcrow0">
+                <button class="calcbutton" id="cbutton" onclick="calcReset()">C</button>
+                <button class="calcbutton" onclick="lastRemove()">⬅</button>
+                <button class="calcbutton operationbutton" onclick="buttonPressed(' + ')">+</button>
+
+
+        </div>
+
+        <div class="calcrowovr" id="calcrow1">
+            <button class="calcbutton" onclick="buttonPressed(1)">1</button>
+            <button class="calcbutton" onclick="buttonPressed(2)">2</button>
+            <button class="calcbutton" onclick="buttonPressed(3)">3</button>
+            <button class="calcbutton operationbutton" onclick="buttonPressed(' - ')">-</button>
+
+        </div>
+        <div class="calcrowovr" id="calcrow2">
+            <button class="calcbutton" onclick="buttonPressed(4)">4</button>
+            <button class="calcbutton" onclick="buttonPressed(5)">5</button>
+            <button class="calcbutton" onclick="buttonPressed(6)">6</button>
+            <button class="calcbutton operationbutton" onclick="buttonPressed(' * ')">×</button>
+
+        </div>
+        <div class="calcrowovr" id="calcrow3">
+            <button class="calcbutton" onclick="buttonPressed(7)">7</button>
+            <button class="calcbutton" onclick="buttonPressed(8)">8</button>
+            <button class="calcbutton" onclick="buttonPressed(9)">9</button>
+            <button class="calcbutton operationbutton" onclick="buttonPressed(' / ')">÷</button>
+
+        </div>
+        <div class="calcrowovr" id="calcrow4">
+            <button class="calcbutton" onclick="buttonPressed('.')">.</button>
+            <button class="calcbutton" id="button0" onclick="buttonPressed(0)">0</button>
+            <button class="calcbutton" onclick="buttonPressed('(')">(</button>
+            <button class="calcbutton" onclick="buttonPressed(')')">)</button>
+        </div>
+        <div class="calcrowovr" id="calcrow5">
+            <button class="calcbutton" id="equalbutton" onclick="equalButton()">=</button>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
