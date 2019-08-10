@@ -43,8 +43,8 @@ header.sticky {
 
 .logo {
 
-    width: 82px;
-    height: 82px;
+    width: 80px;
+    height: 80px;
     opacity: 1;
     transition: 0.7s;
 
@@ -54,12 +54,13 @@ header.sticky {
     opacity: 0.45;
 }
 
-/*section.content {
-    margin-top: 80px;
-    padding: 20px;
-    background-color: #ABA9BF;
-    color: #202020;
-}*/
+
+#CCLogo {
+    width: 90px;
+    vertical-align: middle;
+    padding-right: 10px;
+  }
+  
 
 
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
@@ -70,13 +71,14 @@ a.btn-social,
     border-radius: 50%;
     color: #ffffff !important;
     display: inline-block;
-    height: 45px;
-    line-height: 50px;
+    height: 3vw;
+    line-height: 2.5em;
     margin: 8px 4px;
     text-align: center;
     text-decoration: none;
     transition: background-color .3s;
-    width: 45px;
+    width: 3vw;
+    font-size: 1.3vw;
 }
 
 .btn-social .fa,.btn-social i
@@ -126,6 +128,7 @@ a.btn-social,
 }
 
 
+
 .btn-github
 {
     background-color: #4183c4;
@@ -148,6 +151,7 @@ a.btn-social,
     align-self: right;
 }
 
+
 .headerbutton{
     display:inline-block;
     padding:0.3em 1.2em;
@@ -160,7 +164,7 @@ a.btn-social,
     color:#FFFFFF;
     text-align:center;
     transition: all 0.2s;
-    font-size: 15px;
+    font-size: 1.1vw;
     }
 .headerbutton:hover{
     background-color:#4095c6;
@@ -170,5 +174,19 @@ a.btn-social,
     display:block;
     margin:0.2em auto;
 }
+    }
+
+@media all and (max-width: 750px) {
+    .headerbutton {
+    font-size: 2vw;
+    }   
+    a.btn-social,
+    .btn-social {
+    font-size: 1.6vw;
+    height: 4vw;
+    width: 4vw;
+    line-height: 4.5vw;
+}
+
     }
 
