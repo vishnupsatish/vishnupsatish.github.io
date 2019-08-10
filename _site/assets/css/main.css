@@ -140,7 +140,11 @@ a.btn-social,
     font-size: 1.6vw;
     height: 4vw;
     width: 4vw;
-    line-height: 4.5vw; } }
+    line-height: 4.5vw; }
+
+  .logo {
+    width: 65px;
+    height: 65px; } }
 html {
   -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
