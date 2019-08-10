@@ -207,6 +207,10 @@ function windowResized() {
     }
 }    
 
+function ViewProjects () {
+    window.open("/projects/","_self");
+}
+
 function bodyOnload() {
     windowResized();
     myVar0 = setInterval(add0, 100);
@@ -227,6 +231,12 @@ function bodyOnload() {
     }
     else if (OSName === "MacOS") {
         document.getElementById("macload").style.visibility = "visible";
+    }
+
+    else {
+        document.getElementById("macload").style.visibility = "visible";
+        document.getElementById("macload").innerHTML = "View Projects";
+        document.getElementById("macload").onclick = ViewProjects;
     }
 }
 

@@ -207,6 +207,10 @@ function windowResized() {
     }
 }    
 
+function ViewProjects () {
+    window.open("/projects/","_self");
+}
+
 function bodyOnload() {
     windowResized();
     myVar0 = setInterval(add0, 100);
@@ -227,6 +231,12 @@ function bodyOnload() {
     }
     else if (OSName === "MacOS") {
         document.getElementById("macload").style.visibility = "visible";
+    }
+
+    else {
+        document.getElementById("macload").style.visibility = "visible";
+        document.getElementById("macload").innerHTML = "View Projects";
+        document.getElementById("macload").onclick = ViewProjects;
     }
 }
 
@@ -266,65 +276,3 @@ function bodyOnload() {
   
   })();
 
-// CALCULATOR JAVASCRIPT ---------------------------------------------------------------------------------------------
-
-var calculatorDisplay = document.getElementById("calctitle");
-var currentNumber = "";
-
-
-function buttonPressed(symbol) {
-    if(calculatorDisplay.innerHTML == 0) {
-        currentNumber = "";
-        currentNumber = String(currentNumber) + String(symbol);
-    }
-    else if(currentNumber.length == 20) {
-        alert("You can only enter up to 20 characters.");
-
-    }
-    else {
-        currentNumber = String(currentNumber) + String(symbol);
-    }
-
-    
-    document.getElementById("calctitle").innerHTML = (currentNumber.replace(/\*/g, "×")).replace(/\//g, "÷");
-
-}
-
-function equalButton(expression) {
-    try {
-        eval(currentNumber); 
-        calculatorDisplay.innerHTML = eval(currentNumber);
-        currentNumber = (eval(currentNumber));
-    } catch (e) {
-        if (e instanceof SyntaxError) {
-            alert('Invalid expression. ' + e.message + ".");
-            currentNumber = "";
-            calculatorDisplay.innerHTML = "Invalid Expression";
-        }
-    }
-
-    if (String(currentNumber).includes("e") || currentNumber === 0 || currentNumber === NaN || currentNumber === Infinity) {
-        currentNumber = "";
-    }
-}
-
-function calcReset() {
-    currentNumber = "";
-    calculatorDisplay.innerHTML = 0;
-}
-
-function lastRemove() {
-    if(currentNumber.length === 1 || calculatorDisplay.innerHTML === "Invalid Expression" || calculatorDisplay.innerHTML === "undefined" || calculatorDisplay.innerHTML === "NaN" || calculatorDisplay.innerHTML === "Infinity" || calculatorDisplay.innerHTML == 0) {
-        currentNumber = 0;
-        calculatorDisplay.innerHTML = 0;
-    }
-    else {
-        currentNumber = currentNumber.trim();
-        currentNumber = currentNumber.slice(0, -1);
-        currentNumber = currentNumber.trim();
-    }
-    
-    calculatorDisplay.innerHTML = (currentNumber.replace(/\*/g, "×")).replace(/\//g, "÷");
-
-
-}
