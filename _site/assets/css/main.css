@@ -619,5 +619,5 @@ time {
 .projectbutton:active {
   transform: scale(0.99); }
 
-#firstbutton {
-  margin-bottom: 10px; }
+.macbutton {
+  margin-top: 10px; }
