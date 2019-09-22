@@ -17,7 +17,10 @@ description: Hi, my name is Vishnu, and I like to program. This is like a list o
     {% include header.html %}
     <meta name="description" content="Hi, my name is Vishnu, and I like to program. This is like a list of my projects and what I've done so far.">
     <link rel="canonical" href="http://www.vishnus.me/" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://kit.fontawesome.com/d5b3ae59a9.js" crossorigin="anonymous"></script>
+
 
 
 
@@ -86,16 +89,17 @@ description: Hi, my name is Vishnu, and I like to program. This is like a list o
         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/vishnupavan.satish@gmail.com" method="post">
         <fieldset id="fs-frm-inputs">
             <label for="full-name">Full Name</label>
-            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-            <label for="email-address">Email Address</label>
+            <input class="nameContactField" type="text" name="name" id="full-name" placeholder="First and Last" required="">
+            <label class="nameContactField" for="email-address">Email Address</label>
             <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
             <label for="message">Message</label>
-            <textarea rows="5" name="message" id="message" required=""></textarea>
+            <textarea id="textAreaContact" rows="5" name="message" id="message" required=""></textarea>
             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
         </fieldset>
         <input type="submit" value="Submit">
         </form>
     </div>
+
 
 </div>
 

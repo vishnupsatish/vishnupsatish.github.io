@@ -253,8 +253,11 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 100px;
   padding-bottom: 100px;
-
+  width: 70vw;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 
 #fs-frm {
   display: inline-block;
@@ -283,7 +286,7 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   width: 50vw;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 50px;
 
 
 }
@@ -361,17 +364,8 @@ body {
   margin-right: 3%;
 }
 
+#fs-frm input, #fs-frm textarea {
+  padding: 20px
+}
 
-/*#imgmain { 
-  Full height
-  height: 100%; 
-  width: 100%;
-
-  Center and scale the image nicely
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: fixed;
-}*/
 
