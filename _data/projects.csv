@@ -1,5 +1,5 @@
 title,date,description,mac,windows,android,website,image
-YouTube Downloader,October 2019,An application that downloads YouTube videos from a URL. Made with: Electron.,https://www.dropbox.com/s/ap5j1ry1cpby7wr/YouTube%20Downloader%20Installer.dmg?dl=1,None,None,None,ElectronWide.png
+YouTube Downloader,October 2019,An application that downloads YouTube videos from a URL. Made with: Electron.,https://www.dropbox.com/s/ap5j1ry1cpby7wr/YouTube%20Downloader%20Installer.dmg?dl=1,https://www.dropbox.com/s/a0rnrz8cj4q2g0y/YouTube%20Downloader.zip?dl=1,None,None,ElectronWide.png
 DECA Info Downloader,September 2019,A way to easily look for the club DECA’s categories and its PDFs. Search with list.,None,None,None,https://deca.vishnus.me,JavaScriptWide.png
 Hand Cricket (Android),September 2019,A fun and easy-to-play hand-based cricket game! This time available for Android! Made with: Apache Cordova.,None,None,https://www.dropbox.com/s/3tpq6ztqiwcwa9s/Hand%20Cricket.apk?dl=1,None,CordovaWide.png
 MediaLook,August 2019,"A simple way to look for any media, such as books, movies, and YouTube videos, along with info.",None,None,None,https://media.vishnus.me,JavaScriptWide.png
