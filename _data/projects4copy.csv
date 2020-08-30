@@ -1,8 +1,5 @@
 title,date,description,mac,windows,android,website,image
-Mentors Platform,August 2020,"A web app that allows for easy mentor and teacher class reports and tracking management, as well as salary management.",None,None,None,https://mentors.codercookies.com,CoderCookiesWide.png
-MasterProfile,July 2020,MasterProfile is a simple yet powerful web application designed to revolutionize the way employers get information about potential candidates.,None,None,None,https://masterprofile.herokuapp.com,MasterProfileWide.png
-DoctorHelp,July 2020,A platform that allows patients to anonymously contact doctors and get their questions answered.,None,None,None,http://doctorhelp.tech,DoctorHelpWide.png
-Findr,June 2020,Findr is a platform to find out how stores/facilities/amenities are operating through this pandemic. Users can “crowdsource” and add their own info.,None,None,None,http://findr.company,FindrWide.png
+Findr,June 2020,Findr is a platform to find out how stores/facilities/amenities are operating through this pandemic. Users can “crowdsource” and add their own info.,None,None,None,https://findr.company,FindrWide.png
 Alley-oop,April 2020,"A simple NBA mobile app with live match details, player info, and latest NBA news. Made using NativeScript.",None,None,https://play.google.com/store/apps/details?id=com.applab.basketball,https://github.com/vishnupsatish/basketball-app,AlleyOopWide.png
 Coronavirus News,March 2020,"A program that finds COVID-19 news, generates an image and uploads it to Instagram, along with the number of cases in each country.",None,None,None,https://www.instagram.com/novelcoronavirusnews/,CoronavirusWide.png
 YouTube Downloader,October 2019,An application that downloads YouTube videos from a URL. Made with: Electron.,https://www.dropbox.com/s/ap5j1ry1cpby7wr/YouTube%20Downloader%20Installer.dmg?dl=1,https://www.dropbox.com/s/a0rnrz8cj4q2g0y/YouTube%20Downloader.zip?dl=1,None,None,ElectronWide.png
